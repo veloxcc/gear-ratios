@@ -1,0 +1,41 @@
+.container {
+  margin-bottom: 5rem;
+}
+
+.main-title {
+  margin-top: 4rem;
+}
+
+.list-title {
+  font-size: 2.5rem;
+}
+
+.toc-list {
+  margin-left: 1rem;
+}
+
+select {
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='14' viewBox='0 0 29 14' width='29'%3E%3Cpath fill='%23d1d1d1' d='M9.37727 3.625l5.08154 6.93523L19.54036 3.625'/%3E%3C/svg%3E") center right no-repeat;
+  padding-right: 3.0rem;
+}
+
+select:focus {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='14' viewBox='0 0 29 14' width='29'%3E%3Cpath fill='%239b4dca' d='M9.37727 3.625l5.08154 6.93523L19.54036 3.625'/%3E%3C/svg%3E");
+}
+
+.table {
+  margin: 3rem 0 3rem 0;
+  overflow: hidden;
+}
+
+.table table {
+  overflow: scroll;
+}
+
+.label-inline {
+  margin-left: 0;
+}
+
+.label-inline input {
+  margin-right: 8px;
+}
